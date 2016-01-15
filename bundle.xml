@@ -5,6 +5,12 @@
         <label>Video.JS</label>
         <description></description>
         <version>4.12.11</version>
-        <namespace>/extensions/videojs</namespace>
+        <namespace>\videojs</namespace>
+        <depends_on>
+            <bundle>
+                <name>adapt</name>
+                <version>1.0</version>
+            </bundle>
+        </depends_on>
     </bundle>
 </adapt_framework>
